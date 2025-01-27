@@ -7,7 +7,10 @@
 #     service-url:
 #       defaultZone: http://localhost:8084/eureka/
 
-
+spring:
+  application:
+   name: Config-Prod
+   
 eureka:
   client:
     service-url:
@@ -17,7 +20,4 @@ eureka:
   instance:
     prefer-ip-address: true
     
-spring:
-  application:
-   name: Config-Prod
-   
+
