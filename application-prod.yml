@@ -19,5 +19,5 @@ eureka:
     
 spring:
   application:
-   name: Config-prod
+   name: Config-Prod
    
